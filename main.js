@@ -2,6 +2,7 @@
 // clik sul quadratino
 $('.quadratini').click(function(){
 console.log('click');
+
 // Ad ogni click su un quadratino, parte una richiesta ajax per recuperare un numero random tra 1 e 9.
 var quadratino = $(this);
 if (quadratino.text() == '') {
@@ -27,3 +28,14 @@ if (quadratino.text() == '') {
     })
 }
 });
+
+// BONUS
+
+// var source = $('#entry-template').html();
+// var template = Handlebars.compile(source);
+//
+// for (var i = 0; i < 36; i++) {
+//     var html_generata = template();
+//     $('#griglia').append(html_generata);
+//
+// }
