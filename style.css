@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+}
+#griglia{
+    width: 598px;
+    height: 304px;
+    margin: auto;
+}
+.quadratini{
+    width: 99px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+}
+/* .pari-rosso{
+    color: red;
+}
+.dispari-nero{
+    color:black;
+}
+.zero{
+    color:green;
+} */
