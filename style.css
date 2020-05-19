@@ -19,12 +19,9 @@
     border: 1px solid black;
     float: left;
 }
-/* .pari-rosso{
-    color: red;
+.giallo{
+    background-color: yellow;
 }
-.dispari-nero{
-    color:black;
+.verde{
+    background-color: green;
 }
-.zero{
-    color:green;
-} */
